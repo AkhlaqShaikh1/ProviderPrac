@@ -26,8 +26,7 @@ class MyHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _count = Provider.of<CountProvider>(context);
-    print("Rebuilding BUILD");
+  
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
